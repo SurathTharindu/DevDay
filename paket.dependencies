@@ -1,0 +1,13 @@
+framework >= net45
+
+source https://api.nuget.org/v3/index.json
+
+nuget FAKE 
+nuget FSharp.Core 
+nuget FSharp.Data 
+nuget FSharp.Configuration 
+nuget Mono.Cecil 
+nuget SQLProvider
+nuget WebSharper
+nuget WebSharper.UI.Next 
+

@@ -1,0 +1,7 @@
+FSharp.Core
+FSharp.Data
+FSharp.Configuration
+SQLProvider
+Mono.Cecil
+WebSharper
+WebSharper.UI.Next
