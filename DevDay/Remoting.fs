@@ -5,8 +5,8 @@ open WebSharper
 module Server =
 
     [<Rpc>]
-    let DoSomething input =
-        let R (s: string) = System.String(Array.rev(s.ToCharArray()))
+    let helloWorld () =
         async {
-            return R input
+            return "Hello world"
         }
+
